@@ -1,3 +1,3 @@
 # PROGDAS-Practice-Haidar
 Black Sapote
-Membuat Fungsi Kalkular
+Membuat Fungsi Kalkulator
