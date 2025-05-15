@@ -1,8 +1,9 @@
 
 #include <stdio.h>
-#include "addSubstract.h"
+#include "addSubtract.h"
 #include "multiplication.h"
 #include "division.h"
+
 int main() {
     int a, b;
     char opr;
@@ -15,7 +16,7 @@ int main() {
             printf("%d", add(a,b));
             break;
         case '-':
-            printf("%d", substract(a,b));
+            printf("%d", subtract(a,b));
             break;
         case '*':
             printf("%d", multiplication(a,b));
