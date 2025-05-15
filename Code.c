@@ -21,7 +21,10 @@ int main() {
         case '*':
             printf("%d", multiplication(a,b));
             break;
-        case ':' || '/':
+        case '/':
+            printf("%d", division(a,b));
+            break;
+        case ':':
             printf("%d", division(a,b));
             break;
     
